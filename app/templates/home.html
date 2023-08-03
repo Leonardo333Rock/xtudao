@@ -1,0 +1,237 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/styler.css' %}">
+    <title>XTUDAO</title>
+</head>
+<body>
+    <header class="container d-flex justify-content-center">
+        <h1 class="h1">XTUDÃO</h1>
+    </header>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#sanduiches">Sanduiches</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#pasteis">Pasteis</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Refirgerantes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sucos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <div id="sanduiches" class="container d-flex flex-wrap justify-content-center">
+          <div class="card m-2" style="width: 12rem;">
+            <img src="../static/img/sanduiche.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">X-tudão</h5>
+              <p class="card-text">PÃO, 2 HAMBURGUER, 2 OVOS, QUEIJO, BACON, PRESUNTO E SALADA</p>
+            </div>
+            <div class="card-body d-flex justify-content-between">
+              <a href="#" class="btn btn-success">Adicionar</a>
+              <p  class="card-text">R$ 16,00</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 12rem;">
+            <img src="../static/img/sanduiche.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">X-tudin</h5>
+              <p class="card-text">PÃO, 2 HAMBURGUER, OVO, QUEIJO, BACON, SALSICHA, PRESUNTO E SALADA</p>
+            </div>
+            <div class="card-body d-flex justify-content-between">
+              <a href="#" class="btn btn-success">Adicionar</a>
+              <p  class="card-text">R$ 13,00</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 12rem;">
+            <img src="../static/img/sanduiche.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">X-bacon especial</h5>
+              <p class="card-text">PÃO, HAMBURGUER, OVO, QUEIJO, BACON, PRESUNTO E SALADA</p>
+            </div>
+            <div class="card-body d-flex justify-content-between">
+              <a href="#" class="btn btn-success">Adicionar</a>
+              <p  class="card-text">R$ 12,00</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 12rem;">
+            <img src="../static/img/sanduiche.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">X-tudo</h5>
+              <p class="card-text">PÃO, HAMBURGUER, OVO, QUEIJO, BACON, SALSICHA, PRESUNTO E SALADA</p>
+            </div>
+            <div class="card-body d-flex justify-content-between">
+              <a href="#" class="btn btn-success">Adicionar</a>
+              <p  class="card-text">R$ 10,00</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 12rem;">
+            <img src="../static/img/sanduiche.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">X-haburguer especial</h5>
+              <p class="card-text">PÃO, HAMBURGUER, OVO, QUEIJO, PRESUNTO E SALADA</p>
+            </div>
+            <div class="card-body d-flex justify-content-between">
+              <a href="#" class="btn btn-success">Adicionar</a>
+              <p  class="card-text">R$ 9,00</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 12rem;">
+            <img src="../static/img/sanduiche.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">X-salada especial</h5>
+              <p class="card-text">PÃO, HAMBURGUER, OVO, QUEIJO, ALFACE E TOMATE</p>
+            </div>
+            <div class="card-body d-flex justify-content-between">
+              <a href="#" class="btn btn-success">Adicionar</a>
+              <p  class="card-text">R$ 8,00</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 12rem;">
+            <img src="../static/img/sanduiche.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hamburguer simples</h5>
+              <p class="card-text">PÃO, HAMBURGUER, QUEIJO, PRESUNTO E SALADA</p>
+            </div>
+            <div class="card-body d-flex justify-content-between">
+              <a href="#" class="btn btn-success">Adicionar</a>
+              <p  class="card-text">R$ 7,00</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 12rem;">
+            <img src="../static/img/sanduiche.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">X-salada simples</h5>
+              <p class="card-text">PÃO, HAMBURGUER, QUEIJO, ALFACE E TOMATE</p>
+            </div>
+            <div class="card-body d-flex justify-content-between">
+              <a href="#" class="btn btn-success">Adicionar</a>
+              <p  class="card-text">R$ 6,00</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 12rem;">
+            <img src="../static/img/sanduiche.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">X-americano</h5>
+              <p class="card-text">PÃO, OVO, QUEIJO, PRESUNTO, ALFACE E TOMATE</p>
+            </div>
+            <div class="card-body d-flex justify-content-between">
+              <a href="#" class="btn btn-success">Adicionar</a>
+              <p  class="card-text">R$ 6,00</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 12rem;">
+            <img src="../static/img/sanduiche.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bauru</h5>
+              <p class="card-text">PÃO, QUEIJO, PRESUNTO, ALFACE E TOMATE</p>
+            </div>
+            <div class="card-body d-flex justify-content-between">
+              <a href="#" class="btn btn-success">Adicionar</a>
+              <p  class="card-text">R$ 5,00</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 12rem;">
+            <img src="../static/img/sanduiche.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Misto-quente</h5>
+              <p class="card-text">PÃO, QUEIJO E PRESUNTO</p>
+            </div>
+            <div class="card-body d-flex justify-content-between">
+              <a href="#" class="btn btn-success">Adicionar</a>
+              <p  class="card-text">R$ 4,00</a>
+            </div>
+          </div>
+    </div>
+
+    <div id="pasteis" class="container d-flex flex-wrap justify-content-center">
+        <div class="card m-2" style="width: 12rem;">
+            <img src="../static/img/pastel.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pastel misto</h5>
+              <p class="card-text">QUEIJO, PRESUNTO E SALADA</p>
+            </div>
+            <div class="card-body d-flex justify-content-between">
+              <a href="#" class="btn btn-success">Adicionar</a>
+              <p  class="card-text">R$ 7,00</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 12rem;">
+            <img src="../static/img/pastel.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pastel de queijo</h5>
+              <p class="card-text">QUEIJO E SALADA</p>
+            </div>
+            <div class="card-body d-flex justify-content-between">
+              <a href="#" class="btn btn-success">Adicionar</a>
+              <p  class="card-text">R$ 7,00</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 12rem;">
+            <img src="../static/img/pastel.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pastel de carne</h5>
+              <p class="card-text">CARNE E SALADA</p>
+            </div>
+            <div class="card-body d-flex justify-content-between">
+              <a href="#" class="btn btn-success">Adicionar</a>
+              <p  class="card-text">R$ 7,00</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 12rem;">
+            <img src="../static/img/pastel.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pastel de frango</h5>
+              <p class="card-text">FRANGO E SALADA</p>
+            </div>
+            <div class="card-body d-flex justify-content-between">
+              <a href="#" class="btn btn-success">Adicionar</a>
+              <p  class="card-text">R$ 7,00</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 12rem;">
+            <img src="../static/img/pastel.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pastel calabresa</h5>
+              <p class="card-text">CALABRESA E SALADA</p>
+            </div>
+            <div class="card-body d-flex justify-content-between">
+              <a href="#" class="btn btn-success">Adicionar</a>
+              <p  class="card-text">R$ 7,00</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 12rem;">
+            <img src="../static/img/pastel.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pastel de pizza</h5>
+              <p class="card-text">QUEIJO,PRESUNTO, OREGANO E SALADA</p>
+            </div>
+            <div class="card-body d-flex justify-content-between">
+              <a href="#" class="btn btn-success">Adicionar</a>
+              <p  class="card-text">R$ 7,00</a>
+            </div>
+          </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
